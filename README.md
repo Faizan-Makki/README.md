@@ -1,22 +1,44 @@
-Faizan Ahmed
-────────────────────────
+# Hi, I'm Faizan Ahmed 👋
 
-Data & AI Enthusiast
-Python • SQL • Data Analytics • Machine Learning
+Data & AI Enthusiast | Python | SQL | Machine Learning
 
-🎓 IIT Madras BS — Data Science
-💻 Building data & AI applications
-📊 Interested in Data Science, ML & AI
+🎓 IIT Madras BS in Data Science
+💻 Building data and AI applications
+📊 Data Analytics & Machine Learning
+🚀 Currently exploring Deep Learning & AI
 
-Tech Stack
-Python | SQL | Pandas | NumPy | Streamlit
-Scikit-learn | PyTorch | Git | GitHub
+---
 
-Featured Projects
-├── Calcutta Analytics
-├── Sales Forecasting
-├── IntelliSys
+## 🛠️ Tech Stack
 
+Python • SQL • Pandas • NumPy • Matplotlib
+Scikit-learn • PyTorch • Streamlit
+Git • GitHub • PostgreSQL • SQL Server
 
-Currently Learning
-Machine Learning → Deep Learning → AI
+---
+
+## 🚀 Featured Projects
+
+### Calcutta Analytics
+AI-powered data analytics platform...
+
+### Sales Forecasting
+Machine learning project using LightGBM...
+
+### IntelliSys
+...
+
+---
+
+## 📚 Currently Learning
+
+- Machine Learning
+- Deep Learning
+- PyTorch
+- AI Engineering
+
+---
+
+## 📫 Connect With Me
+
+LinkedIn • GitHub • X
