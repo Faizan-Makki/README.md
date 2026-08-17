@@ -15,7 +15,7 @@ and I mean to be the one who reads them true.</i>
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Cinzel&size=20&duration=3500&pause=1000&color=C9A35D&center=true&vCenter=true&width=650&lines=Sworn+to+the+realm+of+Data;Wielder+of+SQL+and+Python;Student+of+Machine+Learning;Builder+of+Calcutta+Analytics;Currently+garrisoned+at+Safal+Infosoft" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Cinzel&size=20&duration=3500&pause=1000&color=C9A35D&center=true&vCenter=true&width=650&lines=Sworn+to+the+realm+of+Data;Wielder+of+SQL+and+Python;Student+of+Machine+Learning;Builder+of+Calcutta+Analytics;Garrisoned+at+Safal+Infosoft" alt="Typing SVG" />
 
 <br/><br/>
 
