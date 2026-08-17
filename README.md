@@ -4,7 +4,7 @@
 
 <br/>
 
-### `Data & AI Engineer  ·  IIT Madras — B.S. Data Science & Applications`
+### `Data & AI ·  IIT Madras`
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
