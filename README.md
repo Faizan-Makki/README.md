@@ -1,44 +1,97 @@
 # Hi, I'm Faizan Ahmed 👋
 
-Data & AI Enthusiast | Python | SQL | Machine Learning
+### Data & AI Enthusiast | Python | SQL | Machine Learning
 
-🎓 IIT Madras BS in Data Science
-💻 Building data and AI applications
-📊 Data Analytics & Machine Learning
-🚀 Currently exploring Deep Learning & AI
+I'm currently pursuing a **BS in Data Science from IIT Madras** and building my skills across **data analytics, machine learning, and AI**.
 
----
-
-## 🛠️ Tech Stack
-
-Python • SQL • Pandas • NumPy • Matplotlib
-Scikit-learn • PyTorch • Streamlit
-Git • GitHub • PostgreSQL • SQL Server
+I enjoy turning data into useful insights and building practical applications with Python, SQL, and machine learning.
 
 ---
 
 ## 🚀 Featured Projects
 
-### Calcutta Analytics
-AI-powered data analytics platform...
+### 📊 [Calcutta Analytics](https://github.com/Faizan-Makki/Calcutta-Analytics)
 
-### Sales Forecasting
-Machine learning project using LightGBM...
+AI-powered data analytics platform for exploring, cleaning, analyzing, and visualizing datasets with AI-assisted insights.
 
-### IntelliSys
-...
+**Tech:** Python • Streamlit • Pandas • NumPy • Plotly • SQL • LLMs
+
+### 📈 [Sales Forecasting](https://github.com/Faizan-Makki/sales-forecasting-lightgbm-pytorch)
+
+Machine learning project focused on sales forecasting using gradient boosting and deep-learning approaches.
+
+**Tech:** Python • Pandas • LightGBM • PyTorch • Machine Learning
+
+### 💻 [IntelliSys](https://github.com/Faizan-Makki/intellisys)
+
+A software project focused on building practical technology solutions.
+
+---
+
+## 🛠️ Tech Stack
+
+**Languages & Data**
+
+* Python
+* SQL
+* Pandas
+* NumPy
+* Excel
+
+**Data Visualization**
+
+* Matplotlib
+* Plotly
+* Streamlit
+
+**Machine Learning & AI**
+
+* Scikit-learn
+* LightGBM
+* PyTorch
+* Generative AI
+* LLM APIs
+
+**Databases & Backend**
+
+* PostgreSQL
+* Microsoft SQL Server
+* FastAPI
+* SQLAlchemy
+
+**Tools**
+
+* Git
+* GitHub
+* VS Code
+* Jupyter
 
 ---
 
 ## 📚 Currently Learning
 
-- Machine Learning
-- Deep Learning
-- PyTorch
-- AI Engineering
+* Machine Learning
+* Deep Learning
+* PyTorch
+* AI Engineering
+* Data Structures & Algorithms
+* Building AI-powered applications
 
 ---
 
-## 📫 Connect With Me
+## 🎓 Education
 
-LinkedIn • GitHub • X
+**IIT Madras — BS in Data Science**
+
+Currently pursuing the program with a focus on developing strong foundations in mathematics, programming, data analysis, and machine learning.
+
+---
+
+## 🤝 Let's Connect
+
+* 💼 [LinkedIn](https://www.linkedin.com/)
+* 🐙 [GitHub](https://github.com/Faizan-Makki)
+
+---
+
+### 💡 Building, learning, and experimenting with Data & AI.
