@@ -90,6 +90,7 @@ Currently pursuing the program with a focus on developing strong foundations in 
 ## 🤝 Let's Connect
 
 * 💼 [LinkedIn](https://www.linkedin.com/)
+* 💼 [X](https://x.com/faizan_makki)
 * 🐙 [GitHub](https://github.com/Faizan-Makki)
 
 ---
