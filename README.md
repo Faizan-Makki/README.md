@@ -469,7 +469,7 @@ IIT Madras — B.S. in Data Science & Applications
 
 <br/>
 
-<div align="center"><img src="./assets/divider.svg" width="70%"/></div>
+<!-- <div align="center"><img src="./assets/divider.svg" width="70%"/></div> -->
 
 <br/>
 
