@@ -47,7 +47,11 @@
 
 <br/>
 
-## 🗺️ &nbsp; THE SEVEN REALMS
+
+<div align="left">
+  <img src="./assets/seven-realms-title.svg" width="650" height="50" alt="THE SEVEN REALMS"/>
+</div>
+
 
 <sub><i>A map of the territories I have studied and now hold.</i></sub>
 
@@ -458,18 +462,15 @@ IIT Madras — B.S. in Data Science & Applications
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Faizan-Makki&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&title_color=c9a35d&icon_color=c9a35d&text_color=c9c9c9" height="165"/>
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Faizan-Makki&theme=dark&hide_border=true&background=0d1117&ring=c9a35d&fire=c9a35d&currStreakLabel=c9a35d" height="165"/>
-
-<br/>
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Faizan-Makki&layout=compact&theme=dark&hide_border=true&bg_color=0d1117&title_color=c9a35d&text_color=c9c9c9" height="165"/>
+<a href="https://github.com/Faizan-Makki">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Faizan-Makki&bg_color=080A0D&color=C9A35D&line=C9A35D&point=FFFFFF&area=true&hide_border=true" width="95%" alt="Faizan Ahmed GitHub contribution graph"/>
+</a>
 
 </div>
 
 <br/>
 
-<!-- <div align="center"><img src="./assets/divider.svg" width="70%"/></div> -->
+<div align="center"><img src="./assets/divider.svg" width="70%"/></div>
 
 <br/>
 
