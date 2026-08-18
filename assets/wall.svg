@@ -1,0 +1,59 @@
+<svg width="1200" height="280" viewBox="0 0 1200 280" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="wallSky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#070811"/>
+      <stop offset="100%" stop-color="#101226"/>
+    </linearGradient>
+    <radialGradient id="wallMoon" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#eae2c8" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#c9a35d" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="280" fill="url(#wallSky)"/>
+  <circle cx="1080" cy="60" r="70" fill="url(#wallMoon)"/>
+  <circle cx="1080" cy="60" r="26" fill="#e9e0c8" opacity="0.9"/>
+
+  <!-- the wall -->
+  <rect x="0" y="190" width="1200" height="90" fill="#05060a"/>
+  <g fill="#05060a">
+    <rect x="0" y="170" width="40" height="20"/>
+    <rect x="80" y="170" width="40" height="20"/>
+    <rect x="160" y="170" width="40" height="20"/>
+    <rect x="240" y="170" width="40" height="20"/>
+    <rect x="320" y="170" width="40" height="20"/>
+    <rect x="400" y="170" width="40" height="20"/>
+    <rect x="480" y="170" width="40" height="20"/>
+    <rect x="560" y="170" width="40" height="20"/>
+    <rect x="640" y="170" width="40" height="20"/>
+    <rect x="720" y="170" width="40" height="20"/>
+    <rect x="800" y="170" width="40" height="20"/>
+    <rect x="880" y="170" width="40" height="20"/>
+    <rect x="960" y="170" width="40" height="20"/>
+    <rect x="1040" y="170" width="40" height="20"/>
+    <rect x="1120" y="170" width="40" height="20"/>
+  </g>
+  <g stroke="#1a1a2e" stroke-width="1" opacity="0.6">
+    <line x1="0" y1="220" x2="1200" y2="220"/>
+    <line x1="0" y1="250" x2="1200" y2="250"/>
+  </g>
+
+  <!-- five glowing indicators above the wall -->
+  <g font-family="Georgia, serif" font-size="12" fill="#c9c9c9" text-anchor="middle">
+    <circle cx="150" cy="130" r="5" fill="#4a6fa5"><animate attributeName="opacity" values="0.4;1;0.4" dur="2.2s" repeatCount="indefinite"/></circle>
+    <text x="150" y="155">Deep Learning</text>
+
+    <circle cx="380" cy="110" r="5" fill="#c9a35d"><animate attributeName="opacity" values="1;0.3;1" dur="2.6s" repeatCount="indefinite"/></circle>
+    <text x="380" y="155">PyTorch</text>
+
+    <circle cx="610" cy="125" r="5" fill="#7a1f2b"><animate attributeName="opacity" values="0.3;1;0.3" dur="2.4s" repeatCount="indefinite"/></circle>
+    <text x="610" y="155">Generative AI</text>
+
+    <circle cx="840" cy="105" r="5" fill="#c9a35d"><animate attributeName="opacity" values="0.5;1;0.5" dur="2.8s" repeatCount="indefinite"/></circle>
+    <text x="840" y="155">LLMs</text>
+
+    <circle cx="1000" cy="130" r="5" fill="#4a6fa5"><animate attributeName="opacity" values="1;0.4;1" dur="2.1s" repeatCount="indefinite"/></circle>
+    <text x="1000" y="155">DSA</text>
+  </g>
+
+  <text x="600" y="30" text-anchor="middle" font-family="Georgia, serif" letter-spacing="6" font-size="15" fill="#8f96b8">THE WALL — ACTIVE VIGIL</text>
+</svg>
