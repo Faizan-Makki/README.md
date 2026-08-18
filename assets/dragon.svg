@@ -1,0 +1,76 @@
+<svg width="900" height="380" viewBox="0 0 900 380" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="dragonGlow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#7a1f2b" stop-opacity="0.9"/>
+      <stop offset="50%" stop-color="#c9a35d" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#4a6fa5" stop-opacity="0.9"/>
+    </linearGradient>
+    <radialGradient id="eyeGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffdca0"/>
+      <stop offset="100%" stop-color="#c9a35d" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="dGlow"><feGaussianBlur stdDeviation="2.5"/></filter>
+  </defs>
+  <rect width="900" height="380" fill="#050608"/>
+
+  <!-- spine path (invisible, used for motion + reference) -->
+  <path id="spine" d="M60,300 C140,320 190,260 240,240 C300,215 330,150 380,120 C420,98 460,120 500,100 C560,70 600,60 660,55 C720,50 780,70 830,40"
+        fill="none" stroke="url(#dragonGlow)" stroke-width="2.4" opacity="0.85" filter="url(#dGlow)"/>
+
+  <!-- tail -->
+  <path d="M60,300 C40,320 30,340 20,360" fill="none" stroke="url(#dragonGlow)" stroke-width="2" opacity="0.7"/>
+
+  <!-- wings: two node-clusters -->
+  <g stroke="#c9a35d" stroke-width="1" opacity="0.55" fill="none">
+    <path d="M420,130 L360,60 M420,130 L400,50 M420,130 L460,55 M420,130 L490,70"/>
+    <path d="M560,80 L520,20 M560,80 L580,10 M560,80 L620,25 M560,80 L640,45"/>
+  </g>
+  <g fill="#c9a35d" opacity="0.85">
+    <circle cx="360" cy="60" r="2"/><circle cx="400" cy="50" r="2"/><circle cx="460" cy="55" r="2"/><circle cx="490" cy="70" r="2"/>
+    <circle cx="520" cy="20" r="2"/><circle cx="580" cy="10" r="2"/><circle cx="620" cy="25" r="2"/><circle cx="640" cy="45" r="2"/>
+  </g>
+
+  <!-- spine joint nodes -->
+  <g fill="url(#crestGoldFallback)">
+    <circle cx="60" cy="300" r="4" fill="#c9a35d"/>
+    <circle cx="240" cy="240" r="4" fill="#c9a35d"/>
+    <circle cx="380" cy="120" r="4" fill="#c9a35d"/>
+    <circle cx="500" cy="100" r="4" fill="#c9a35d"/>
+    <circle cx="660" cy="55" r="5" fill="#e8c887"/>
+    <circle cx="830" cy="40" r="5" fill="#e8c887"/>
+  </g>
+
+  <!-- head -->
+  <path d="M800,20 L860,32 L840,52 L800,50 Z" fill="#050608" stroke="url(#dragonGlow)" stroke-width="1.8"/>
+  <circle cx="822" cy="38" r="10" fill="url(#eyeGlow)">
+    <animate attributeName="r" values="8;13;8" dur="2.4s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="822" cy="38" r="3" fill="#ffdca0">
+    <animate attributeName="opacity" values="0.5;1;0.5" dur="2.4s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- flowing particles along spine -->
+  <circle r="2.6" fill="#ffe6ab">
+    <animateMotion dur="4s" repeatCount="indefinite">
+      <mpath href="#spine"/>
+    </animateMotion>
+  </circle>
+  <circle r="2" fill="#c9a35d">
+    <animateMotion dur="4s" begin="1.3s" repeatCount="indefinite">
+      <mpath href="#spine"/>
+    </animateMotion>
+  </circle>
+  <circle r="2.2" fill="#7a1f2b">
+    <animateMotion dur="4s" begin="2.6s" repeatCount="indefinite">
+      <mpath href="#spine"/>
+    </animateMotion>
+  </circle>
+
+  <!-- faint circuit background -->
+  <g stroke="#c9a35d" stroke-width="0.5" opacity="0.12">
+    <line x1="0" y1="200" x2="900" y2="200"/>
+    <line x1="0" y1="260" x2="900" y2="260"/>
+    <line x1="150" y1="0" x2="150" y2="380"/>
+    <line x1="700" y1="0" x2="700" y2="380"/>
+  </g>
+</svg>
