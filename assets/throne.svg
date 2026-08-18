@@ -1,0 +1,59 @@
+<svg width="420" height="520" viewBox="0 0 420 520" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="throneGold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e8c887"/>
+      <stop offset="100%" stop-color="#8a6a30"/>
+    </linearGradient>
+    <filter id="tGlow"><feGaussianBlur stdDeviation="3"/></filter>
+  </defs>
+  <rect width="420" height="520" fill="#050608"/>
+
+  <!-- faint circuit backdrop -->
+  <g stroke="#4a6fa5" stroke-width="0.6" opacity="0.18">
+    <line x1="0" y1="120" x2="420" y2="120"/>
+    <line x1="0" y1="240" x2="420" y2="240"/>
+    <line x1="0" y1="360" x2="420" y2="360"/>
+    <line x1="90" y1="0" x2="90" y2="520"/>
+    <line x1="330" y1="0" x2="330" y2="520"/>
+  </g>
+
+  <!-- radiant glow behind throne -->
+  <ellipse cx="210" cy="260" rx="150" ry="220" fill="#7a1f2b" opacity="0.08" filter="url(#tGlow)"/>
+
+  <!-- crossed "sword" blades forming the throne's jagged silhouette -->
+  <g stroke="url(#throneGold)" stroke-width="2" fill="none" opacity="0.9">
+    <path d="M120,480 L100,90 L112,60 L124,90 L120,480"/>
+    <path d="M170,480 L155,60 L167,35 L179,60 L170,480"/>
+    <path d="M210,480 L210,40 L222,15 L234,40 L222,480"/>
+    <path d="M260,480 L245,60 L257,35 L269,60 L260,480"/>
+    <path d="M300,480 L280,90 L292,60 L304,90 L300,480"/>
+  </g>
+
+  <!-- seat block -->
+  <rect x="110" y="360" width="200" height="55" fill="#0a0b12" stroke="url(#throneGold)" stroke-width="1.6"/>
+  <rect x="90" y="415" width="240" height="70" fill="#08090f" stroke="url(#throneGold)" stroke-width="1.6"/>
+
+  <!-- data glyphs etched on seat -->
+  <g font-family="monospace" font-size="10" fill="#c9a35d" opacity="0.75">
+    <text x="120" y="440">SELECT * </text>
+    <text x="120" y="455">FROM realm</text>
+    <text x="230" y="440">01001</text>
+    <text x="230" y="455">GROUP BY</text>
+  </g>
+
+  <!-- neural lines wrapping the base -->
+  <g stroke="#4a6fa5" stroke-width="1" opacity="0.5" fill="none">
+    <path d="M90,485 C150,500 270,500 330,485"/>
+    <path d="M100,470 C170,485 250,485 320,470"/>
+  </g>
+  <g fill="#c9a35d">
+    <circle cx="120" cy="493" r="2"><animate attributeName="opacity" values="0.3;1;0.3" dur="2.4s" repeatCount="indefinite"/></circle>
+    <circle cx="210" cy="497" r="2"><animate attributeName="opacity" values="1;0.3;1" dur="2.8s" repeatCount="indefinite"/></circle>
+    <circle cx="300" cy="493" r="2"><animate attributeName="opacity" values="0.3;1;0.3" dur="2.2s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <!-- top center blade glow pulse -->
+  <circle cx="222" cy="15" r="6" fill="#e8c887" filter="url(#tGlow)">
+    <animate attributeName="opacity" values="0.4;1;0.4" dur="3s" repeatCount="indefinite"/>
+  </circle>
+</svg>
