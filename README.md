@@ -36,7 +36,7 @@
 
 *A raven for knowledge that travels. A crown of light for the systems it serves. Nodes and wires in place of feathers — because in this house, intelligence is gathered, carried, and delivered like a message that must not be lost.*
 
-**Faizan Ahmed** — Data & AI · IIT Madras B.S. in Data Science & Applications · Ahmedabad, India
+**Faizan Ahmed** — Data & AI · IIT Madras B.S. in Data Science & Applications · Bangalore, India
 
 </td>
 </tr></table>
